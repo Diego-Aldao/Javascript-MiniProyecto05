@@ -1,0 +1,50 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  transition: all 0.3s ease-in-out;
+}
+body,
+.numero,
+.contenedor,
+.contenedor-botones {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+body {
+  width: 100%;
+  height: 100vh;
+}
+.contenedor {
+  box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.562);
+  width: 300px;
+  height: 400px;
+  flex-direction: column;
+}
+.numero {
+  width: 100%;
+  height: 70%;
+  font-size: 6rem;
+}
+.contenedor-botones {
+  width: 100%;
+  height: 30%;
+  justify-content: space-evenly;
+}
+button {
+  padding: 6px 13px;
+  border: none;
+  background: none;
+  border-radius: 5px;
+  box-shadow: 1px 1px 5px;
+  cursor: pointer;
+  outline: none;
+}
+.boton-sustraccion {
+  color: red;
+}
+.boton-incremento {
+  color: rgb(4, 214, 4);
+}
